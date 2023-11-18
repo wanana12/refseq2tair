@@ -1,5 +1,11 @@
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(version = "3.18")
+
+BiocManager::install("org.At.tair.db")
+
 # refseqIDをtairIDに変換
-setwd("~/refseq2tair")
+setwd("~/refseq2tair") # 任意のディレクトリに移動
 getwd()
 
 library(org.At.tair.db)
