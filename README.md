@@ -1,4 +1,4 @@
 # refseq2tair
-RefSeqIDをTAIRIDに変換
+RefSeqIDをTAIRIDに変換できます。
 
 https://bi.biopapyrus.jp/rnaseq/annotation/org.at.tair.db.html
